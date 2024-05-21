@@ -1,13 +1,10 @@
 {
   "navigation": {
     "home": "ပင်မစာမျက်နှာ",
-    "coach": "နည်းပြ",
-    "event": "ပွဲများ",
-    "google_recaptcha": "Google Recaptcha",
-    "profile": "ပရိုဖိုင်",
-    "register": "စာရင်းသွင်းမည်",
-    "login":"ဝင်ရောက်ပါ",
-    "about_us": "ကျွန်ုပ်တို့အကြောင်း"
+    "about": "ကျွန်ုပ်တို့အကြောင်း",
+    "download": "ဒေါင်းလုတ်",
+    "player": "ပလေယာများ",
+    "screenshots": "ပုံများ"
   },
   "home": {
     "choose_date": "နေ့ရက်ကိုရွေးချယ်ပါ",

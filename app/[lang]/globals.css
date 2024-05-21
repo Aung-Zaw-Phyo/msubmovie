@@ -16,6 +16,13 @@
   }
 }
 
+@layer components {
+  .container {
+      @apply px-4 md:px-8 !mx-auto;
+  }
+}
+
+
 /* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(

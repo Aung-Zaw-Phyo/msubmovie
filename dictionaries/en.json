@@ -1,13 +1,10 @@
 {
   "navigation": {
     "home": "Home",
-    "coach": "Coach",
-    "event": "Event",
-    "google_recaptcha": "Google Recaptcha",
-    "profile": "Profile",
-    "register": "Register",
-    "login":"Login",
-    "about_us": "About Us"
+    "about": "About",
+    "download": "Download",
+    "player": "Player",
+    "screenshots": "Screenshots"
   },
   "home": {
     "choose_date": "Choose Date",

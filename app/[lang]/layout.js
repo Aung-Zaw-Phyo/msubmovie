@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { NextIntlClientProvider, useMessages } from "next-intl";
+import Header from "@/components/layouts/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,9 +13,10 @@ export const metadata = {
 export default function RootLayout({ children, params }) {
   const messages = useMessages();
   return (
-    <html lang={params.lang}>
+    <html lang={params.lang} className='scroll-smooth' style={{scrollBehavior:'smooth'}}>
       <body className={inter.className}>
         <NextIntlClientProvider locale={params.lang} messages={messages}>
+          <Header/>
           {children}
         </NextIntlClientProvider>
       </body>
