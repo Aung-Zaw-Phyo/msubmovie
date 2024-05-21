@@ -1,0 +1,74 @@
+{
+  "navigation": {
+    "home": "Home",
+    "coach": "Coach",
+    "event": "Event",
+    "google_recaptcha": "Google Recaptcha",
+    "profile": "Profile",
+    "register": "Register",
+    "login":"Login",
+    "about_us": "About Us"
+  },
+  "home": {
+    "choose_date": "Choose Date",
+    "choose_court": "Choose Court",
+    "choose_timeslot": "Choose Time",
+    "choose_coach": "Choose Coach",
+    "choose_facilities": "Choose Facilities",
+    "choose_nationality": "Choose Nationality",
+    "coaches": "Coach",
+    "events": "Events",
+    "about_us": "About Us",
+    "book_now": "Book Now",
+    "pay_now": "Pay Now",
+    "loading": "Loading ...",
+    "proceed_to_payment": "Proceed To Payment",
+    "booking_detail": "Booking Detail"
+  },
+  "coach": {
+    "coaches": "Coach List",
+    "more_detail": "More Detail"
+  },
+  "event": {
+    "events": "Events"
+  },
+  "profile": {
+    "profile_information": "Profile Information",
+    "name": "Name",
+    "username": "Username",
+    "phone": "Phone",
+    "email": "Email",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "logout": "Logout"
+  },
+  "auth": {
+    "register": "Register",
+    "please_sign_in": "Please Sign In",
+    "name": "Name",
+    "username": "Username",
+    "enter_name": "Enter your name",
+    "enter_username": "Enter your username",
+    "email": "Email",
+    "email_or_phone": "Email or Phone",
+    "enter_email": "Enter your email",
+    "enter_email_or_phone": "Enter your email or phone",
+    "phone": "Phone",
+    "enter_phone": "Enter your phone",
+    "password": "Password",
+    "confirm_password": "Comfirm Password",
+    "term_and_conditions": "Terms and Conditions",
+    "enter_password": "Enter your password",
+    "already_account": "Already have an account?",
+    "forgot_password": "Forgot your password?",
+    "forgot_password_content": "Forgot your password? No problem. Just let us know your phone number and we will send you a OTP Code that will allow you to set a new one.",
+    "reset_password": "Reset your password",
+    "enter_otp": "Enter your OTP code",
+    "enter_new_password": "Enter your new password",
+    "retype_password": "Retype your new password",
+    "confirm_otp": "Confirm OTP Code",
+    "confirm": "CONFIRM",
+    "resend": "Resend",
+    "loading": "Loading ..."
+  }
+}
