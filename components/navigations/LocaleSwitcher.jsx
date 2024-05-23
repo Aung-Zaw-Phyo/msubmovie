@@ -18,9 +18,12 @@ export default function LocaleSwitcher() {
     return searchParams ? `${url}?${queryString}` : url;
   };
 
+  const activeClasses = "px-4 py-2 text-gray-600 bg-white rounded-md focus:outline-none hover:text-gray-900 hover:bg-gray-100";
+  const inactiveClasses = "px-4 py-2 text-gray-600 rounded-md focus:outline-none hover:text-gray-900 hover:bg-gray-100";
+
   return (
     <>
-      <div className="flex justify-center items-center">
+      {/* <div className="flex">
         {i18n.locales.map((locale) => (
           <Link key={locale} href={redirectedPathName(locale)}>
             <img
@@ -32,7 +35,23 @@ export default function LocaleSwitcher() {
             />
           </Link>
         ))}
+      </div> */}
+      <div className="inline-flex p-1 bg-gray-300 rounded-lg">
+        {i18n.locales.map((locale) => (
+          <Link key={locale} href={redirectedPathName(locale)}>
+            <button className={currentLang === locale ? activeClasses : inactiveClasses}>
+            <span className="uppercase">{locale}</span>
+          </button>
+          </Link>
+        ))}
       </div>
     </>
   );
 }
+
+{/* <button className="px-4 py-2 text-gray-600 bg-white rounded-md focus:outline-none hover:text-gray-900 hover:bg-gray-100">
+            Preview
+        </button>
+        <button className="px-4 py-2 text-gray-600 rounded-md focus:outline-none hover:text-gray-900 hover:bg-gray-100">
+            HTML
+        </button> */}
