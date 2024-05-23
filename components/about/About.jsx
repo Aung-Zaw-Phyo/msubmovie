@@ -1,8 +1,8 @@
 import React from 'react'
-import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 
-const about = () => {
-    const t = useTranslations()
+const about = async() => {
+    const t = await getTranslations()
 
   return (
     <div id="about" className="bg-[#EDEDF5] relative">

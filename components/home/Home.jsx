@@ -1,8 +1,8 @@
-import { useTranslations } from 'next-intl'
 import React from 'react'
+import { getTranslations } from 'next-intl/server'
 
-const Home = () => {
-    const t = useTranslations()
+const Home = async() => {
+    const t = await getTranslations()
   return (
     <div 
         id='home' 

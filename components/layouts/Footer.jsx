@@ -1,8 +1,8 @@
 import React from 'react'
-import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 
-const Footer = () => {
-    const t = useTranslations()
+const Footer = async() => {
+    const t = await getTranslations()
   return (
     <div>
         <div className='bg-[#ff0000b6] bg-cover bg-center object-cover bg-no-repeat py-12' style={{ backgroundImage: "url('https://base-tailwind.preview.uideck.com/images/shape-16.svg')" }}>
