@@ -18,7 +18,7 @@ const Footer = () => {
                         <input 
                             type="text" 
                             placeholder={t("enter_advice")}
-                            className='h-14 lg:w-[250] inline-flex p-3 rounded-tl-lg rounded-bl-lg focus:outline-none'
+                            className='h-14 lg:w-[250] inline-flex p-3 rounded-tl-lg rounded-bl-lg !focus:outline-none !focus:border-none'
                         />
                         <button className="inline-flex h-14 py-3 px-6 tracking-wide rounded-tr-lg rounded-br-lg uppercase bg-blue-600 hover:bg-blue-500 border-none text-white text-lg duration-300">
                         {t("send")}

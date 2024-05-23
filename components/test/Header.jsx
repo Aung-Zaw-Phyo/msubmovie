@@ -105,11 +105,7 @@ const Header = () => {
             <Link className="navbar-brand" href="/#">
               <img width={60} src="https://msubyoteshin.com/assets/cssAndjs/logo.png" alt="Logo" />
             </Link>
-            <button className="navbar-toggler focus:outline-none block lg:hidden">
-              <span className="toggler-icon block bg-gray-700 relative duration-300 h-[2px] w-[30px] my-[6px]"></span>
-              <span className="toggler-icon block bg-gray-700 relative duration-300 h-[2px] w-[30px] my-[6px]"></span>
-              <span className="toggler-icon block bg-gray-700 relative duration-300 h-[2px] w-[30px] my-[6px]"></span>
-            </button>
+
             {/* collapse navbar-collapse */}
             <div className=" hidden lg:block duration-300 shadow absolute top-full left-0 mt-full bg-white z-20 px-5 py-3 w-full lg:static lg:bg-transparent lg:shadow-none">
               <ul className="navbar-nav mr-auto justify-center items-center lg:flex">
@@ -130,7 +126,14 @@ const Header = () => {
                 </li>
               </ul>
             </div>
-            <LocaleSwitcher />
+            <div className="flex items-center gap-3">
+              <button className="navbar-toggler focus:outline-none block lg:hidden">
+                <span className="toggler-icon block bg-gray-700 relative duration-300 h-[2px] w-[30px] my-[6px]"></span>
+                <span className="toggler-icon block bg-gray-700 relative duration-300 h-[2px] w-[30px] my-[6px]"></span>
+                <span className="toggler-icon block bg-gray-700 relative duration-300 h-[2px] w-[30px] my-[6px]"></span>
+              </button>
+              <LocaleSwitcher />
+            </div>
           </nav>
         </div>
       </div>
