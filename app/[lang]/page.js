@@ -7,16 +7,7 @@ import Viber from './../../components/chat/Viber';
 import Header from "@/components/test/Header";
 import Footer from '@/components/layouts/Footer';
 
-export async function generateStaticParams() {
-  const locales = ['en', 'my'];
-  const paths = locales.map((locale) => ({
-    params: { lang: locale },
-  }));
-
-  return paths;
-}
-
-export default function Home({ params: { lang } }) {
+export default function Home() {
   return (
     <div>
         <Header/>
