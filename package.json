@@ -19,6 +19,7 @@
     "react-dom": "^18",
     "react-elfsight-widget": "^1.1.1",
     "react-facebook": "^9.0.12",
+    "sweetalert2": "^11.11.0",
     "swiper": "^11.1.3"
   },
   "devDependencies": {

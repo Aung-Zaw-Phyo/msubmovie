@@ -40,5 +40,6 @@
   "contact_us": "Contact Us",
   "contact_content": "If you want to give us advices or if you have something difficult about our application, you can send us your advice or difficulties freely.",
   "enter_advice": "Enter your advice ...",
-  "send": "Send"
+  "send": "Send",
+  "loading": "Loading ..."
 }
