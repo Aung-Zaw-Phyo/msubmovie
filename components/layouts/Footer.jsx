@@ -15,14 +15,14 @@ const Footer = async() => {
                 </div>
                 <div className='lg:col-span-1 flex lg:justify-end items-center'>
                     <div className='flex justify-center items-center'>
-                        <input 
+                        {/* <input 
                             type="text" 
                             placeholder={t("enter_advice")}
-                            className='h-14 lg:w-[250] inline-flex p-3 rounded-tl-lg rounded-bl-lg !focus:outline-none !focus:border-none'
+                            className='h-14 min-w-[180px] md:w-[250px] inline-flex p-3 rounded-tl-lg rounded-bl-lg !focus:outline-none !focus:border-none'
                         />
-                        <button className="inline-flex h-14 py-3 px-6 tracking-wide rounded-tr-lg rounded-br-lg uppercase bg-blue-600 hover:bg-blue-500 border-none text-white text-lg duration-300">
+                        <button className="inline-flex h-14 py-3 px-4 sm:px-6 tracking-wide rounded-tr-lg rounded-br-lg uppercase bg-blue-600 hover:bg-blue-500 border-none text-white text-lg duration-300">
                         {t("send")}
-                        </button>
+                        </button> */}
                     </div>
                 </div>
             </div>          

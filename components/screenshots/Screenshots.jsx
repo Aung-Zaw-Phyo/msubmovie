@@ -10,9 +10,9 @@ import 'swiper/css/pagination';
 const Screenshots = () => {
     const t = useTranslations()
   return (
-    <div id="screenshots" className="py-12" style={{ backgroundImage: "url('https://themehut.co/wp/movflx/wp-content/uploads/2022/08/tv_series_bg.jpg')" }}>
+    <div id="screenshots" className="py-24" style={{ backgroundImage: "url('https://themehut.co/wp/movflx/wp-content/uploads/2022/08/tv_series_bg.jpg')" }}>
         <div className="container">
-            <h1 className='text-white text-center text-4xl font-semibold mb-6'>{t("watch_screenshots")}</h1>
+            <h1 className='text-white text-center text-4xl font-semibold mb-8'>{t("watch_screenshots")}</h1>
             <Swiper
                 slidesPerView={1}
                 spaceBetween={10}

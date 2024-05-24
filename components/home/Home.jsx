@@ -12,11 +12,11 @@ const Home = async() => {
         " 
         style={{ backgroundImage: "url('https://themebeyond.com/html/movflx/img/banner/s_slider_bg.jpg')" }}
     >
-        <img className='mb-6' src="https://themehut.co/wp/movflx/wp-content/themes/movflx/assets/img/preloader.svg" alt="" />
+        <img className='mb-6 w-[160px]' src="/logos/logo.png" alt="" />
 
-        <div className='mb-2 text-sm'>{t("movie_lover")}</div>
+        <div className='mb-2'>{t("movie_lover")}</div>
         <h1 className='mb-3 text-4xl font-bold text-[#ef4444]'>MSub YoteShin</h1>
-        <p className='text-white text-center leading-8 mb-4'>
+        <p className='text-white text-center text-lg leading-8 mb-4'>
             {t('download_setence_1')} <br />
             {t('download_setence_2')}
         </p>

@@ -18,22 +18,23 @@ const Vlc = () => {
             {t('vlc_content')}
         </p>
         <div id="player-mx-ad" />
-        <div className="flex justify-center gap-3">
+        <div className="flex flex-col md:flex-row justify-center lg:flex-wrap xl:flex-nowrap gap-3">
             <a 
-                href="/files/aungzawphyo11.pdf" download 
+                href="https://github.com/yoeyartv/yoeyar-tv/raw/main/vlc_3-5-4.apk" download 
                 className=" 
-                    inline-flex items-center py-3 px-5 text-sm tracking-wide rounded-lg uppercase bg-red-500 border-red-500 border 
+                    inline-flex items-center justify-center w-full md:w-auto py-3 px-5 text-sm tracking-wide rounded-lg uppercase bg-red-500 border-red-500 border 
                     hover:bg-red-400 hover:border-red-400 text-white duration-300
             ">
                 {t('simple_download')} <i className="fa-solid fa-download ml-2" />
             </a>
-            <div>
+            <div className='w-full md:w-auto'>
                 <button 
                     id="dropdownDefaultButton" 
                     data-dropdown-toggle="vlc-dropdown" 
                     className="
+                        inline-flex items-center justify-center w-full tracking-wide
                         text-white bg-red-500 hover:bg-red-400 focus:outline-none focus:ring-blue-300 
-                        font-medium rounded-lg uppercase text-sm px-5 py-3 text-center inline-flex items-center dark:bg-blue-600 
+                        font-medium rounded-lg uppercase text-sm px-5 py-3 text-center dark:bg-blue-600 
                         dark:hover:bg-blue-700 dark:focus:ring-blue-800
                     " 
                     type="button"
@@ -43,7 +44,7 @@ const Vlc = () => {
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m1 1 4 4 4-4" />
                     </svg>
                 </button>
-                <div id="vlc-dropdown" className="z-10 hidden bg-red-500 divide-y divide-gray-100 rounded-lg shadow w-36 dark:bg-gray-700">
+                <div id="vlc-dropdown" className="z-10 hidden bg-red-500 divide-y divide-gray-100 rounded-lg shadow w-40 md:w-36 dark:bg-gray-700">
                     <ul className=" text-sm text-white dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                         <li>
                             <a 

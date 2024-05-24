@@ -19,17 +19,17 @@ const Header = () => {
         if (window.pageYOffset > sticky) {
             headerNavbar.classList.add("sticky", "!bg-red-500");
             headerNavbar.classList.remove("fixed", "py-2");
-            for (let i = 0; i < navLinks.length; i++) {
-              const element = navLinks[i];
-              element.classList.add("!text-white");
-            }
+            // for (let i = 0; i < navLinks.length; i++) {
+            //   const element = navLinks[i];
+            //   element.classList.add("!text-white");
+            // }
         } else {
             headerNavbar.classList.add("fixed", "py-2");
             headerNavbar.classList.remove("sticky", "!bg-red-500");
-            for (let i = 0; i < navLinks.length; i++) {
-              const element = navLinks[i];
-              element.classList.add("!text-white");
-            }
+            // for (let i = 0; i < navLinks.length; i++) {
+            //   const element = navLinks[i];
+            //   element.classList.add("!text-white");
+            // }
         }
 
         const backToTop = document.querySelector(".back-to-top");
@@ -79,11 +79,16 @@ const Header = () => {
 
         const navbarToggler = document.querySelector(".navbar-toggler");
         const navbarCollapse = document.querySelector(".navbar-collapse");
-
+        
         const handleNavbarClick = () => {
-            console.log('**************')
-            navbarToggler.classList.toggle("active");
-            navbarCollapse.classList.toggle("show");
+          console.log('**************')
+          navbarToggler.classList.toggle("active");
+          const isHidden = navbarCollapse.classList.contains("hidden");
+          if(isHidden) {
+            navbarCollapse.classList.remove("hidden");
+          }else {
+            navbarCollapse.classList.add("hidden");
+          }
         };
         
         window.addEventListener("scroll", handleScroll);
@@ -103,34 +108,34 @@ const Header = () => {
         <div className="container px-4">
           <nav className="navbar py-2 navbar-expand-lg flex justify-between items-center relative duration-300">
             <Link className="navbar-brand" href="/#">
-              <img width={60} src="https://msubyoteshin.com/assets/cssAndjs/logo.png" alt="Logo" />
+              <img className='w-[50px] sm:w-[60px]' src="/logos/main_logo.png" alt="Logo" />
             </Link>
 
             {/* collapse navbar-collapse */}
-            <div className=" hidden lg:block duration-300 shadow absolute top-full left-0 mt-full bg-white z-20 px-5 py-3 w-full lg:static lg:bg-transparent lg:shadow-none">
+            <div className="navbar-collapse hidden lg:block duration-300 shadow-lg absolute top-full left-0 mt-full bg-white z-20 px-5 py-3 w-full lg:static lg:bg-transparent lg:shadow-none">
               <ul className="navbar-nav mr-auto justify-center items-center lg:flex">
                 <li className="nav-item ">
-                  <Link className="nav-link" href="#home">{t('home')}</Link>
+                  <Link className="nav-link lg:!text-white" href="#home">{t('home')}</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" href="#download">{t('download')}</Link>
+                  <Link className="nav-link lg:!text-white" href="#download">{t('download')}</Link>
                 </li>
                 <li className="nav-item ">
-                  <Link className="nav-link" href="#about">{t('about')}</Link>
+                  <Link className="nav-link lg:!text-white" href="#about">{t('about')}</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" href="#player">{t('player')}</Link>
+                  <Link className="nav-link lg:!text-white" href="#player">{t('player')}</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" href="#screenshots">{t('screenshots')}</Link>
+                  <Link className="nav-link lg:!text-white" href="#screenshots">{t('screenshots')}</Link>
                 </li>
               </ul>
             </div>
             <div className="flex items-center gap-3">
               <button className="navbar-toggler focus:outline-none block lg:hidden">
-                <span className="toggler-icon block bg-gray-700 relative duration-300 h-[2px] w-[30px] my-[6px]"></span>
-                <span className="toggler-icon block bg-gray-700 relative duration-300 h-[2px] w-[30px] my-[6px]"></span>
-                <span className="toggler-icon block bg-gray-700 relative duration-300 h-[2px] w-[30px] my-[6px]"></span>
+                <span className="toggler-icon block bg-white relative duration-300 h-[2px] w-[30px] my-[6px]"></span>
+                <span className="toggler-icon block bg-white relative duration-300 h-[2px] w-[30px] my-[6px]"></span>
+                <span className="toggler-icon block bg-white relative duration-300 h-[2px] w-[30px] my-[6px]"></span>
               </button>
               <LocaleSwitcher />
             </div>

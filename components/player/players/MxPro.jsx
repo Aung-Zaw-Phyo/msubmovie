@@ -19,32 +19,33 @@ const MxPro = () => {
             {t("mxpro_content")}
         </p>
         <div id="player-network-stream" />
-        <div className="flex justify-center gap-3">
+        <div className="flex flex-col md:flex-row justify-center lg:flex-wrap xl:flex-nowrap gap-3">
             <a 
-                href="/files/aungzawphyo11.pdf" download 
+                href="https://github.com/yoeyartv/yoeyar-tv/raw/main/mx_player_pro-v1.78.apk" download 
                 className=" 
-                    inline-flex items-center py-3 px-5 text-sm tracking-wide rounded-lg uppercase bg-red-500 border-red-500 border 
+                    inline-flex items-center justify-center w-full py-3 px-5 text-sm tracking-wide rounded-lg uppercase bg-red-500 border-red-500 border 
                     hover:bg-red-400 hover:border-red-400 text-white duration-300
             ">
-                {t("simple_download")} <i className="fa-solid fa-download ml-2" />
+                {t('simple_download')} <i className="fa-solid fa-download ml-2" />
             </a>
-            <div>
+            <div className='w-full'>
                 <button 
                     id="dropdownDefaultButton" 
                     data-dropdown-toggle="mxpro-dropdown" 
                     className="
+                        inline-flex items-center justify-center w-full tracking-wide
                         text-white bg-red-500 hover:bg-red-400 focus:outline-none focus:ring-blue-300 
-                        font-medium rounded-lg uppercase text-sm px-5 py-3 text-center inline-flex items-center dark:bg-blue-600 
+                        font-medium rounded-lg uppercase text-sm px-5 py-3 text-center dark:bg-blue-600 
                         dark:hover:bg-blue-700 dark:focus:ring-blue-800
                     " 
                     type="button"
                 >
-                    {t("version")}
+                    {t('version')}
                     <svg className="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m1 1 4 4 4-4" />
                     </svg>
                 </button>
-                <div id="mxpro-dropdown" className="z-10 hidden bg-red-500 divide-y divide-gray-100 rounded-lg shadow w-36 dark:bg-gray-700">
+                <div id="mxpro-dropdown" className="z-10 hidden bg-red-500 divide-y divide-gray-100 rounded-lg shadow w-40 md:w-36 dark:bg-gray-700">
                     <ul className=" text-sm text-white dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                         <li>
                             <a 

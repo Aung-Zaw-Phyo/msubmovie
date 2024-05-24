@@ -8,8 +8,8 @@ import Network from './players/Network'
 const Player = async() => {
   const t = await getTranslations()
   return (
-    <div className="mx-auto px-3 md:px-8 py-24 bg-[#fff]" id="player">
-        <h1 className="text-center text-2xl font-semibold mb-8">{t("get_player")}</h1>
+    <div className="mx-auto px-3 md:px-8 py-24 bg-[#FEFEFF]" id="player">
+        <h1 className="text-center text-4xl font-medium mb-8">{t("get_player")}</h1>
         <div className="container grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Vlc/>
             <MxAd/>

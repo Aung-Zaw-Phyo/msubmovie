@@ -11,22 +11,25 @@ import 'swiper/css/pagination';
 
 
 // import required modules
-import { EffectCube, Pagination } from 'swiper/modules';
+import { Autoplay, EffectCube, Pagination } from 'swiper/modules';
 import { useTranslations } from 'next-intl';
 
 const Download = () => {
     const t = useTranslations()
   return (
-    <div id="download" className="py-24 bg-[#fff] bg-left bg-no-repeat" style={{ backgroundImage: "url('https://msubyoteshin.com/assets/cssAndjs/about-shape-2.svg')" }}>
+    <div id="download" className="py-24 bg-[#FEFEFF] bg-left bg-no-repeat" style={{ backgroundImage: "url('https://msubyoteshin.com/assets/cssAndjs/about-shape-2.svg')" }}>
         <div className='container grid md:grid-cols-2 gap-6 '>
-            <div className='p-3 '>
+            <div className='p-3'>
                 {/* <img src="https://crypto-tailwind.preview.uideck.com/src/images/download/app-image.png" alt="" /> */}
-                {/* <img className='w-[280px]' src="/screenshots/team-1.png" alt="" /> */}
-                <div className='w-[240px] md:w-[280px]  mx-auto'>
+                <div className='w-[230px] md:w-[270px]  mx-auto'>
                     <Swiper
                         effect={'cube'}
                         grabCursor={true}
                         loop={true}
+                        autoplay={{
+                            delay: 4000,
+                            disableOnInteraction: false,
+                          }}
                         cubeEffect={{
                         shadow: true,
                         slideShadows: true,
@@ -34,7 +37,7 @@ const Download = () => {
                         shadowScale: 0.94,
                         }}
                         pagination={true}
-                        modules={[EffectCube, Pagination]}
+                        modules={[Autoplay, EffectCube, Pagination]}
                         className="mySwiper"
                     >
                         <SwiperSlide>
@@ -66,34 +69,31 @@ const Download = () => {
 
                 <div className='flex flex-col gap-4'>
                     <div className='flex gap-4 items-start p-3 bg-white shadow rounded-lg'>
-                        {/* <img className='mr-4' src="https://msubyoteshin.com/assets/cssAndjs/services-shape-1.svg" alt="" /> */}
                         <i className="fa-brands fa-android mr-4 text-[40px] text-gray-500" />
                         <div>
                             <h1 className='text-lg font-semibold mb-2'>{t("android_phone")}</h1>
                             <p className='mb-2'>{t("android_phone_content")}</p>
-                            <a href="#0" className="inline-flex py-3 px-6 text-sm tracking-wide rounded-lg uppercase bg-red-500 border-red-500 border hover:bg-red-400 hover:border-red-400 text-white duration-300">
+                            <a href="https://bit.ly/msub_164_ph" download className="inline-flex py-3 px-6 text-sm tracking-wide rounded-lg uppercase bg-red-500 border-red-500 border hover:bg-red-400 hover:border-red-400 text-white duration-300">
                                 {t("download")}
                             </a>
                         </div>
                     </div>
                     <div className='flex gap-4 items-start p-3 bg-white shadow rounded-lg'>
-                        {/* <img className='mr-4' src="https://msubyoteshin.com/assets/cssAndjs/services-shape-1.svg" alt="" /> */}
                         <i className="fa-solid fa-tv mr-4 text-[40px] text-gray-500" />
                         <div>
                             <h1 className='text-lg font-semibold mb-2'>{t("android_tv")}</h1>
                             <p className='mb-2'>{t("android_tv_content")}</p>
-                            <a href="#0" className="inline-flex py-3 px-6 text-sm tracking-wide rounded-lg uppercase bg-red-500 border-red-500 border hover:bg-red-400 hover:border-red-400 text-white">
+                            <a href="https://bit.ly/msub_164_tv" download className="inline-flex py-3 px-6 text-sm tracking-wide rounded-lg uppercase bg-red-500 border-red-500 border hover:bg-red-400 hover:border-red-400 text-white">
                                 {t("download")}
                             </a>
                         </div>
                     </div>
                     <div className='flex gap-4 items-start p-3 bg-white shadow rounded-lg'>
-                        {/* <img className='mr-4' src="https://msubyoteshin.com/assets/cssAndjs/services-shape-1.svg" alt="" /> */}
                         <i className="fa-brands fa-android mr-4 text-[40px] text-gray-500" />
                         <div>
                             <h1 className='text-lg font-semibold mb-2'>{t("sports_android")}</h1>
                             <p className='mb-2'>{t("sports_android_content")}</p>
-                            <a href="#0" className="inline-flex py-3 px-6 text-sm tracking-wide rounded-lg uppercase bg-red-500 border-red-500 border hover:bg-red-400 hover:border-red-400 text-white">
+                            <a href="https://bit.ly/msub_164_ph" className="inline-flex py-3 px-6 text-sm tracking-wide rounded-lg uppercase bg-red-500 border-red-500 border hover:bg-red-400 hover:border-red-400 text-white">
                                 {t("download")}
                             </a>
                         </div>
