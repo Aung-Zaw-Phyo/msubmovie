@@ -6,6 +6,7 @@ import Screenshots from './../../components/screenshots/Screenshots';
 import Viber from './../../components/chat/Viber';
 import Header from "@/components/test/Header";
 import Footer from '@/components/layouts/Footer';
+import Messenger from './../../components/chat/Messenger';
 
 export default function Home() {
   return (
@@ -18,7 +19,8 @@ export default function Home() {
         <Player/>
         <Screenshots/>
         <Footer/>
-        <Viber/>
+        <Viber/>  
+        <Messenger/>
         
 
         <a href="#" className=" back-to-top w-10 h-10 fixed bottom-0 right-0 mb-5 mr-5 flex items-center justify-center rounded-full bg-red-600 text-white text-lg z-20 duration-300 hover:bg-red-400">
