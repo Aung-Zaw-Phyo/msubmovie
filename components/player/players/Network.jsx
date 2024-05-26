@@ -14,7 +14,7 @@ const Network = () => {
             <img className="m-auto w-[35%] lg:w-[45%] rounded-xl mb-4" src="/images/net.webp" alt="" />
         </div>
         <h3 className="font-semibold text-lg mb-3">{t("network")}</h3>
-        <p className="text-sm mb-4">
+        <p className="mb-4">
             {t("network_content")}
         </p>
         <div className="flex flex-col md:flex-row lg:flex-col justify-center gap-3 mt-auto">

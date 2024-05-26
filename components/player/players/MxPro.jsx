@@ -15,7 +15,7 @@ const MxPro = () => {
             <img className="m-auto w-[35%] lg:w-[45%] mb-4" src="/images/MX.png" alt="" />
         </div>
         <h3 className="font-semibold text-lg mb-3">{t("mxpro")}</h3>
-        <p className="text-sm mb-4">
+        <p className="mb-4">
             {t("mxpro_content")}
         </p>
         <div id="player-network-stream" />

@@ -14,7 +14,7 @@ const MxAd = () => {
             <img className="m-auto w-[35%] lg:w-[45%] mb-4" src="/images/MX.png" alt="" />
         </div>
         <h3 className="font-semibold text-lg mb-3">{t("mxad")}</h3>
-        <p className="text-sm mb-4">
+        <p className="mb-4">
             {t("mxad_content")}
         </p>
         <div id="player-mx-pro" />
