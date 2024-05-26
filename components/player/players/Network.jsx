@@ -17,7 +17,7 @@ const Network = () => {
         <p className="text-sm mb-4">
             {t("network_content")}
         </p>
-        <div className="flex flex-col md:flex-row justify-center lg:flex-wrap gap-3 mt-auto">
+        <div className="flex flex-col md:flex-row lg:flex-col justify-center gap-3 mt-auto">
             <a 
                 href="https://github.com/yoeyartv/yoeyar-tv/raw/main/network_stream_v7.3.apk" download 
                 className=" 

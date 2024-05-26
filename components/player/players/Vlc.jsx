@@ -18,7 +18,7 @@ const Vlc = () => {
             {t('vlc_content')}
         </p>
         <div id="player-mx-ad" />
-        <div className="flex flex-col md:flex-row justify-center lg:flex-wrap gap-3 mt-auto">
+        <div className="flex flex-col md:flex-row lg:flex-col justify-center  gap-3 mt-auto">
             <a 
                 href="https://github.com/yoeyartv/yoeyar-tv/raw/main/vlc_3-5-4.apk" download 
                 className=" 

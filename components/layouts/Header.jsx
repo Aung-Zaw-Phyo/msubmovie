@@ -17,18 +17,18 @@ const Header = () => {
         const sticky = headerNavbar.offsetTop;
 
         if (window.pageYOffset > sticky) {
-            headerNavbar.classList.add("sticky", "!bg-[#ffffffd8]");
+            headerNavbar.classList.add("sticky", "!bg-[#ffffffdd]");
             headerNavbar.classList.remove("fixed", "py-2");
             for (let i = 0; i < navLinks.length; i++) {
               const element = navLinks[i];
-              element.classList.remove("!text-white");
+              element.classList.remove("lg:!text-white");
             }
         } else {
             headerNavbar.classList.add("fixed", "py-2");
-            headerNavbar.classList.remove("sticky", "!bg-[#ffffffd8]");
+            headerNavbar.classList.remove("sticky", "!bg-[#ffffffdd]");
             for (let i = 0; i < navLinks.length; i++) {
               const element = navLinks[i];
-              element.classList.add("!text-white");
+              element.classList.add("lg:!text-white");
             }
         }
 
@@ -103,7 +103,7 @@ const Header = () => {
     
   return (
     <header id="header-wrap" className="relative">
-      <div className="navigation sticky top-0 left-0 w-full z-30 duration-300">
+      <div className="navigation !fixed top-0 left-0 w-full z-30 duration-300">
         <div className="container px-4">
           <nav className="navbar py-2 navbar-expand-lg flex justify-between items-center relative duration-300">
             <Link className="navbar-brand" href="/#">
@@ -114,27 +114,27 @@ const Header = () => {
             <div className="navbar-collapse hidden lg:block duration-300 shadow-lg absolute top-full left-0 mt-full bg-white z-20 px-5 py-3 w-full lg:static lg:bg-transparent lg:shadow-none">
               <ul className="navbar-nav mr-auto justify-center items-center lg:flex">
                 <li className="nav-item ">
-                  <Link className="nav-link font-medium" href="#home">{t('home')}</Link>
+                  <Link className="nav-link !text-black" href="#home">{t('home')}</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link font-medium" href="#download">{t('download')}</Link>
+                  <Link className="nav-link !text-black" href="#download">{t('download')}</Link>
                 </li>
                 <li className="nav-item ">
-                  <Link className="nav-link font-medium" href="#about">{t('about')}</Link>
+                  <Link className="nav-link !text-black" href="#about">{t('about')}</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link font-medium" href="#player">{t('player')}</Link>
+                  <Link className="nav-link !text-black" href="#player">{t('player')}</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link font-medium" href="#screenshots">{t('screenshots')}</Link>
+                  <Link className="nav-link !text-black" href="#screenshots">{t('screenshots')}</Link>
                 </li>
               </ul>
             </div>
             <div className="flex items-center gap-3">
               <button className="navbar-toggler focus:outline-none block lg:hidden">
-                <span className="toggler-icon block bg-white relative duration-300 h-[2px] w-[30px] my-[6px]"></span>
-                <span className="toggler-icon block bg-white relative duration-300 h-[2px] w-[30px] my-[6px]"></span>
-                <span className="toggler-icon block bg-white relative duration-300 h-[2px] w-[30px] my-[6px]"></span>
+                <span className="toggler-icon block bg-[#E31B1E] relative duration-300 h-[2px] w-[30px] my-[6px]"></span>
+                <span className="toggler-icon block bg-[#E31B1E] relative duration-300 h-[2px] w-[30px] my-[6px]"></span>
+                <span className="toggler-icon block bg-[#E31B1E] relative duration-300 h-[2px] w-[30px] my-[6px]"></span>
               </button>
               <LocaleSwitcher />
             </div>

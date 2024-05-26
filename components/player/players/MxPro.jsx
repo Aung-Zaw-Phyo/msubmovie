@@ -19,7 +19,7 @@ const MxPro = () => {
             {t("mxpro_content")}
         </p>
         <div id="player-network-stream" />
-        <div className="flex flex-col md:flex-row justify-center lg:flex-wrap gap-3 mt-auto">
+        <div className="flex flex-col md:flex-row lg:flex-col justify-center gap-3 mt-auto">
             <a 
                 href="https://github.com/yoeyartv/yoeyar-tv/raw/main/mx_player_pro-v1.78.apk" download 
                 className=" 
