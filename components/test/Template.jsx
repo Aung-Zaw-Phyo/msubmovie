@@ -5,7 +5,7 @@ import './../../public/assets/css/lineicons.css';
 import './../../public/assets/css/tailwindcss.css';
 import './../../public/assets/css/tiny-slider.css';
 import Script from 'next/script';
-import Header from './Header';
+import Header from '../layouts/Header';
 
 const Template = () => {
   return (

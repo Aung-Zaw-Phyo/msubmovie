@@ -27,7 +27,7 @@ const Download = () => {
                         grabCursor={true}
                         loop={true}
                         autoplay={{
-                            delay: 4000,
+                            delay: 3000,
                             disableOnInteraction: false,
                           }}
                         cubeEffect={{
@@ -65,7 +65,7 @@ const Download = () => {
             </div>
             <div className='flex flex-col justify-center'>
                 <h1 className='mb-1 font-semibold text-blue-600'>{t("download_our_app")}</h1>
-                <h3 className='text-2xl md:text-4xl tracking-wide mb-6'>{t("choice_plaform")} <br /> {t("down_suitable_app")}</h3>
+                <h3 className='text-2xl lg:!text-3xl font-medium tracking-wide mb-6'>{t("choice_plaform")} <br /> {t("down_suitable_app")}</h3>
 
                 <div className='flex flex-col gap-4'>
                     <div className='flex gap-4 items-start p-3 bg-white shadow rounded-lg'>
@@ -73,7 +73,7 @@ const Download = () => {
                         <div>
                             <h1 className='text-lg font-semibold mb-2'>{t("android_phone")}</h1>
                             <p className='mb-2'>{t("android_phone_content")}</p>
-                            <a href="https://bit.ly/msub_164_ph" download className="inline-flex py-3 px-6 text-sm tracking-wide rounded-lg uppercase bg-red-500 border-red-500 border hover:bg-red-400 hover:border-red-400 text-white duration-300">
+                            <a href="https://bit.ly/msub_164_ph" download className="inline-flex py-3 px-6 text-sm tracking-wide rounded-lg uppercase bg-[#E31B1E] border-[#E31B1E] border hover:bg-red-500 hover:border-red-500 text-white duration-300">
                                 {t("download")}
                             </a>
                         </div>
@@ -83,7 +83,7 @@ const Download = () => {
                         <div>
                             <h1 className='text-lg font-semibold mb-2'>{t("android_tv")}</h1>
                             <p className='mb-2'>{t("android_tv_content")}</p>
-                            <a href="https://bit.ly/msub_164_tv" download className="inline-flex py-3 px-6 text-sm tracking-wide rounded-lg uppercase bg-red-500 border-red-500 border hover:bg-red-400 hover:border-red-400 text-white">
+                            <a href="https://bit.ly/msub_164_tv" download className="inline-flex py-3 px-6 text-sm tracking-wide rounded-lg uppercase bg-[#E31B1E] border-[#E31B1E] border hover:bg-red-500 hover:border-red-500 text-white duration-300">
                                 {t("download")}
                             </a>
                         </div>
@@ -93,7 +93,7 @@ const Download = () => {
                         <div>
                             <h1 className='text-lg font-semibold mb-2'>{t("sports_android")}</h1>
                             <p className='mb-2'>{t("sports_android_content")}</p>
-                            <a href="https://bit.ly/msub_164_ph" className="inline-flex py-3 px-6 text-sm tracking-wide rounded-lg uppercase bg-red-500 border-red-500 border hover:bg-red-400 hover:border-red-400 text-white">
+                            <a href="https://bit.ly/msub_164_ph" className="inline-flex py-3 px-6 text-sm tracking-wide rounded-lg uppercase bg-[#E31B1E] border-[#E31B1E] border hover:bg-red-500 hover:border-red-500 text-white duration-300">
                                 {t("download")}
                             </a>
                         </div>

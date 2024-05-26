@@ -6,7 +6,7 @@ import { ElfsightWidget } from 'react-elfsight-widget';
 const Viber = () => {
   return (
     <div className="absolute top-0">
-      <ElfsightWidget widgetID="7d1a3f7d-3f3e-4091-afcc-a35b05d856b1" />
+      <ElfsightWidget widgetID="ff131e31-e10b-4663-bcee-6dadde888fd9" />
     </div>
   );
 }

@@ -12,7 +12,7 @@ const Screenshots = () => {
   return (
     <div id="screenshots" className="py-24" style={{ backgroundImage: "url('https://themehut.co/wp/movflx/wp-content/uploads/2022/08/tv_series_bg.jpg')" }}>
         <div className="container">
-            <h1 className='text-white text-center text-4xl font-semibold mb-8'>{t("watch_screenshots")}</h1>
+            <h1 className='text-white text-center text-2xl lg:!text-3xl font-semibold mb-12'>{t("watch_screenshots")}</h1>
             <Swiper
                 slidesPerView={1}
                 spaceBetween={10}
@@ -34,27 +34,27 @@ const Screenshots = () => {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <div className='p-4 bg-[#ffffff29] border border-white rounded-lg shadow-lg flex justify-center items-center'>
+                    <div className='p-4 bg-[#ffffff29] hover:bg-[#ffffff3e] duration-500 border border-white rounded-lg shadow-lg flex justify-center items-center'>
                         <img width={240} src="/screenshots/team-1.png" alt="" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className='p-4 bg-[#ffffff29] border border-white rounded-lg shadow-lg flex justify-center items-center'>
+                    <div className='p-4 bg-[#ffffff29] hover:bg-[#ffffff3e] duration-500 border border-white rounded-lg shadow-lg flex justify-center items-center'>
                         <img width={240} src="/screenshots/team-2.png" alt="" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className='p-4 bg-[#ffffff29] border border-white rounded-lg shadow-lg flex justify-center items-center'>
+                    <div className='p-4 bg-[#ffffff29] hover:bg-[#ffffff3e] duration-500 border border-white rounded-lg shadow-lg flex justify-center items-center'>
                         <img width={240} src="/screenshots/team-3.png" alt="" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className='p-4 bg-[#ffffff29] border border-white rounded-lg shadow-lg flex justify-center items-center'>
+                    <div className='p-4 bg-[#ffffff29] hover:bg-[#ffffff3e] duration-500 border border-white rounded-lg shadow-lg flex justify-center items-center'>
                         <img width={240} src="/screenshots/team-1.png" alt="" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className='p-4 bg-[#ffffff29] border border-white rounded-lg shadow-lg flex justify-center items-center'>
+                    <div className='p-4 bg-[#ffffff29] hover:bg-[#ffffff3e] duration-500 border border-white rounded-lg shadow-lg flex justify-center items-center'>
                         <img width={240} src="/screenshots/team-2.png" alt="" />
                     </div>
                 </SwiperSlide>

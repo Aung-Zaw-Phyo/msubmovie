@@ -61,7 +61,7 @@ export default function RootLayout({ children, params }) {
           <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico" />
           <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico" />
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico" />
-          <link rel="manifest" href="/manifest.json" />
+          {/* <link rel="manifest" href="/manifest.json" /> */}
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="theme-color" content="#000000" />
           <meta name="MSub YoteShin" content="MSub YoteShin Movie Application" />

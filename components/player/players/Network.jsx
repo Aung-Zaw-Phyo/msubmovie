@@ -6,8 +6,8 @@ const Network = () => {
   return (
     <div 
         className="
-            shadow-md rounded-lg bg-white p-3 py-5 text-center duration-300
-            border border-white hover:border-red-500
+            flex flex-col shadow-xl rounded-lg bg-white p-3 py-5 text-center duration-300
+            border border-white hover:border-red-500 hover:scale-105
         "
     >
         <div className="min-h-[160px] w-[100%] flex justify-center items-center">
@@ -17,12 +17,12 @@ const Network = () => {
         <p className="text-sm mb-4">
             {t("network_content")}
         </p>
-        <div className="flex flex-col md:flex-row justify-center lg:flex-wrap xl:flex-nowrap gap-3">
+        <div className="flex flex-col md:flex-row justify-center lg:flex-wrap gap-3 mt-auto">
             <a 
                 href="https://github.com/yoeyartv/yoeyar-tv/raw/main/network_stream_v7.3.apk" download 
                 className=" 
-                    inline-flex items-center justify-center w-full py-3 px-5 text-sm tracking-wide rounded-lg uppercase bg-red-500 border-red-500 border 
-                    hover:bg-red-400 hover:border-red-400 text-white duration-300
+                    inline-flex items-center justify-center w-full py-3 px-5 text-sm tracking-wide rounded-lg uppercase 
+                    bg-[#E31B1E] border-[#E31B1E] border hover:bg-red-500 hover:border-red-500 text-white duration-300
             ">
                 {t('simple_download')} <i className="fa-solid fa-download ml-2" />
             </a>
@@ -32,7 +32,7 @@ const Network = () => {
                     data-dropdown-toggle="network-dropdown" 
                     className="
                         inline-flex items-center justify-center w-full tracking-wide
-                        text-white bg-red-500 hover:bg-red-400 focus:outline-none focus:ring-blue-300 
+                        text-white bg-[#E31B1E] border-[#E31B1E] border hover:bg-red-500 hover:border-red-500 duration-300 focus:outline-none focus:ring-blue-300 
                         font-medium rounded-lg uppercase text-sm px-5 py-3 text-center dark:bg-blue-600 
                         dark:hover:bg-blue-700 dark:focus:ring-blue-800
                     " 

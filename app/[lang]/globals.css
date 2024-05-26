@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Fascinate+Inline&display=swap');
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -22,22 +25,25 @@
   }
 }
 
-
-/* body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */
+body {
+  font-family: "Fascinate", system-ui !important;
+  font-weight: 400;
+  font-style: normal;
+}
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
+
+.logo-text {
+  font-family: "Fascinate", system-ui !important;
+  font-weight: bold;
+  font-style: normal;
+  color: #E31B1E !important;
+}
+
 
 
 /* ----------------------------- */

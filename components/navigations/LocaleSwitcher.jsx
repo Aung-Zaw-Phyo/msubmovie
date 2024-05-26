@@ -18,8 +18,8 @@ export default function LocaleSwitcher() {
     return searchParams ? `${url}?${queryString}` : url;
   };
 
-  const activeClasses = "px-2.5 sm:px-3 py-1.5 text-gray-600 bg-white rounded-md focus:outline-none hover:text-gray-900 hover:bg-gray-100";
-  const inactiveClasses = "px-2.5 sm:px-3 py-1.5 text-gray-600 rounded-md focus:outline-none hover:text-gray-900 hover:bg-gray-100";
+  const activeClasses = "px-2.5 sm:px-3 py-1.5 text-white bg-[#E31B1E] rounded-md focus:outline-none";
+  const inactiveClasses = "px-2.5 sm:px-3 py-1.5 text-gray-600 rounded-md focus:outline-none hover:text-white hover:bg-[#E31B1E]";
 
   return (
     <>
