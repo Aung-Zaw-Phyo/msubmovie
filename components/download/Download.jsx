@@ -47,17 +47,17 @@ const Download = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className=''>
-                                <img src="/screenshots/team-1.png" />
+                                <img src="/screenshots/team-2.png" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className=''>
-                                <img src="/screenshots/team-1.png" />
+                                <img src="/screenshots/team-3.png" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className=''>
-                                <img src="/screenshots/team-1.png" />
+                                <img src="/screenshots/team-2.png" />
                             </div>
                         </SwiperSlide>
                     </Swiper>

@@ -22,7 +22,7 @@ const about = async() => {
                     </div>
                 </div>
                 <div className='p-3 flex justify-center items-center'>
-                    <img className='w-[85%] mx-auto' src="https://msubyoteshin.com/assets/cssAndjs/about-1.png" alt="" />
+                    <img className='w-[85%] mx-auto' src="/screenshots/msub_android_tv.png" alt="" />
                 </div>
             </div>
         </div>

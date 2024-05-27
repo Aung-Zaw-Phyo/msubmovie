@@ -35,27 +35,37 @@ const Screenshots = () => {
             >
                 <SwiperSlide>
                     <div className='p-4 bg-[#ffffff29] hover:bg-[#ffffff3e] duration-500 border border-white rounded-lg shadow-lg flex justify-center items-center'>
-                        <img width={240} src="/screenshots/team-1.png" alt="" />
+                        <img width={240} src="/screenshots/screen_1.png" alt="" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='p-4 bg-[#ffffff29] hover:bg-[#ffffff3e] duration-500 border border-white rounded-lg shadow-lg flex justify-center items-center'>
-                        <img width={240} src="/screenshots/team-2.png" alt="" />
+                        <img width={240} src="/screenshots/screen_2.png" alt="" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='p-4 bg-[#ffffff29] hover:bg-[#ffffff3e] duration-500 border border-white rounded-lg shadow-lg flex justify-center items-center'>
-                        <img width={240} src="/screenshots/team-3.png" alt="" />
+                        <img width={240} src="/screenshots/screen_3.png" alt="" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='p-4 bg-[#ffffff29] hover:bg-[#ffffff3e] duration-500 border border-white rounded-lg shadow-lg flex justify-center items-center'>
-                        <img width={240} src="/screenshots/team-1.png" alt="" />
+                        <img width={240} src="/screenshots/screen_4.png" alt="" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='p-4 bg-[#ffffff29] hover:bg-[#ffffff3e] duration-500 border border-white rounded-lg shadow-lg flex justify-center items-center'>
-                        <img width={240} src="/screenshots/team-2.png" alt="" />
+                        <img width={240} src="/screenshots/screen_6.png" alt="" />
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='p-4 bg-[#ffffff29] hover:bg-[#ffffff3e] duration-500 border border-white rounded-lg shadow-lg flex justify-center items-center'>
+                        <img width={240} src="/screenshots/screen_5.png" alt="" />
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='p-4 bg-[#ffffff29] hover:bg-[#ffffff3e] duration-500 border border-white rounded-lg shadow-lg flex justify-center items-center'>
+                        <img width={240} src="/screenshots/screen_7.png" alt="" />
                     </div>
                 </SwiperSlide>
             </Swiper>
