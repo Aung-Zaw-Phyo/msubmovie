@@ -9,7 +9,7 @@ const about = async() => {
         <div 
             className='bg-right-bottom bg-gradient-to-tl from-[#F1F1F1] bg-no-repeat bg-cover' 
         >
-            <div className='py-24 h-[100vh] container grid grid-cols-1 md:grid-cols-2 gap-4'>
+            <div className='py-20 min-h-[100vh] container grid grid-cols-1 md:grid-cols-2 gap-4'>
                 <div className='flex flex-col justify-center'>
                     <h1 className="text-2xl lg:!text-3xl font-medium mb-8">{t("easy_use")}</h1>
                     <p className='text-lg mb-6 max-w-[90%]'>
