@@ -20,7 +20,7 @@ const MxAd = () => {
         <div id="player-mx-pro" />
         <div className="flex flex-col md:flex-row lg:flex-col justify-center gap-3 mt-auto">
             <a 
-                href="https://github.com/yoeyartv/yoeyar-tv/raw/main/mx_player_pro-v1.78.apk" download 
+                href="https://picture.msubcloud.xyz/file/msubyoteshinyelay/android%20player/mx/ph/com.mxtech.videoplayer.ad_v1.85.7-2001002427_Android-5.0.apk" download 
                 className=" 
                     inline-flex items-center justify-center w-full py-3 px-5 text-sm tracking-wide rounded-lg uppercase 
                     bg-[#E31B1E] border-[#E31B1E] border hover:bg-red-500 hover:border-red-500 duration-300 text-white

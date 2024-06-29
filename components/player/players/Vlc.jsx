@@ -20,7 +20,7 @@ const Vlc = () => {
         <div id="player-mx-ad" />
         <div className="flex flex-col md:flex-row lg:flex-col justify-center  gap-3 mt-auto">
             <a 
-                href="https://github.com/yoeyartv/yoeyar-tv/raw/main/vlc_3-5-4.apk" download 
+                href="https://picture.msubcloud.xyz/file/msubyoteshinyelay/android%20player/vlc/ph/org.videolan.vlc_v3.5.4-13050404_Android-4.2.apk" download 
                 className=" 
                     inline-flex items-center justify-center w-full md:w-auto py-3 px-5 text-sm tracking-wide rounded-lg uppercase 
                     bg-[#E31B1E] border-[#E31B1E] border hover:bg-red-500 hover:border-red-500 text-white duration-300

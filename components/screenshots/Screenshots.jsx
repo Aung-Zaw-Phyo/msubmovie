@@ -10,7 +10,7 @@ import 'swiper/css/pagination';
 const Screenshots = () => {
     const t = useTranslations()
   return (
-    <div id="screenshots" className="py-24" style={{ backgroundImage: "url('https://themehut.co/wp/movflx/wp-content/uploads/2022/08/tv_series_bg.jpg')" }}>
+    <div id="screenshots" className="py-24" style={{ backgroundImage: "url('/images/screenshot_bg.jpg')" }}>
         <div className="container">
             <h1 className='text-white text-center text-2xl lg:!text-3xl font-semibold mb-12'>{t("watch_screenshots")}</h1>
             <Swiper

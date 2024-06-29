@@ -40,23 +40,23 @@ const Download = () => {
                         className="mySwiper"
                     >
                         <SwiperSlide>
-                            <div className=''>
-                                <img src="/screenshots/team-1.png" />
+                            <div className='!bg-transparent'>
+                                <img src="/screenshots/screen_1.png" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className=''>
-                                <img src="/screenshots/team-2.png" />
+                            <div className='!bg-transparent'>
+                                <img src="/screenshots/screen_2.png" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className=''>
-                                <img src="/screenshots/team-3.png" />
+                            <div className='!bg-transparent'>  
+                                <img src="/screenshots/screen_4.png" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className=''>
-                                <img src="/screenshots/team-2.png" />
+                            <div className='!bg-transparent'>
+                                <img src="/screenshots/screen_5.png" />
                             </div>
                         </SwiperSlide>
                     </Swiper>

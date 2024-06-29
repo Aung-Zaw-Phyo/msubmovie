@@ -19,7 +19,7 @@ const Network = () => {
         </p>
         <div className="flex flex-col md:flex-row lg:flex-col justify-center gap-3 mt-auto">
             <a 
-                href="https://github.com/yoeyartv/yoeyar-tv/raw/main/network_stream_v7.3.apk" download 
+                href="https://picture.msubcloud.xyz/file/msubyoteshinyelay/android%20player/ns/Network%20Stream%20%28Video%29%20Player_7.3_apkcombo.com.apk" download 
                 className=" 
                     inline-flex items-center justify-center w-full py-3 px-5 text-sm tracking-wide rounded-lg uppercase 
                     bg-[#E31B1E] border-[#E31B1E] border hover:bg-red-500 hover:border-red-500 text-white duration-300
