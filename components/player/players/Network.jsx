@@ -47,12 +47,12 @@ const Network = () => {
                     <ul className=" text-sm text-white dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                         <li>
                             <a 
-                                href="#" 
+                                href="https://picture.msubcloud.xyz/file/msubyoteshinyelay/android%20player/ns/Network%20Stream%20%28Video%29%20Player_7.3_apkcombo.com.apk" download
                                 className="
                                     flex justify-between px-4 py-2.5 rounded-tr-lg rounded-tl-lg hover:bg-red-400 dark:hover:bg-gray-600 dark:hover:text-white
                                 "
                             >
-                                <span>2.3.1</span>
+                                <span>7.3</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                                 </svg>
@@ -60,10 +60,10 @@ const Network = () => {
                         </li>
                         <li>
                             <a 
-                                href="#" 
+                                href="https://picture.msubcloud.xyz/file/msubyoteshinyelay/android%20player/ns/Network%20Stream%20%28Video%29%20Player_6.3_apkcombo.com.apk" download
                                 className="flex justify-between px-4 py-2.5 hover:bg-red-400 dark:hover:bg-gray-600 dark:hover:text-white"
                             >
-                                <span>2.3.1</span>
+                                <span>6.3</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                                 </svg>
@@ -71,22 +71,12 @@ const Network = () => {
                         </li>
                         <li>
                             <a 
-                                href="#" 
+                                href="https://picture.msubcloud.xyz/file/msubyoteshinyelay/android%20player/ns/Network%20Stream%20%28Video%29%20Player_5.0_apkcombo.com.apk" download
                                 className="flex justify-between px-4 py-2.5 hover:bg-red-400 dark:hover:bg-gray-600 dark:hover:text-white">
-                                <span>2.3.1</span>
+                                <span>5.0</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                                 </svg>    
-                            </a>
-                        </li>
-                        <li>
-                            <a 
-                                href="#" 
-                                className="flex justify-between px-4 py-2.5 rounded-br-lg rounded-bl-lg hover:bg-red-400 dark:hover:bg-gray-600 dark:hover:text-white">
-                                <span>2.3.1</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-                                </svg>        
                             </a>
                         </li>
                     </ul>

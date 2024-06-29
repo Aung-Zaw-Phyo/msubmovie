@@ -49,12 +49,12 @@ const MxPro = () => {
                     <ul className=" text-sm text-white dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                         <li>
                             <a 
-                                href="#" 
+                                href="https://picture.msubcloud.xyz/file/msubyoteshinyelay/android%20player/mx/ph/com.mxtech.videoplayer.pro_v1.74.7-2001002207_Android-5.0.apk" download 
                                 className="
                                     flex justify-between px-4 py-2.5 rounded-tr-lg rounded-tl-lg hover:bg-red-400 dark:hover:bg-gray-600 dark:hover:text-white
                                 "
                             >
-                                <span>2.3.1</span>
+                                <span>1.74.7</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                                 </svg>
@@ -62,10 +62,10 @@ const MxPro = () => {
                         </li>
                         <li>
                             <a 
-                                href="#" 
+                                href="https://picture.msubcloud.xyz/file/msubyoteshinyelay/android%20player/mx/ph/com.mxtech.videoplayer.pro_v1.64.3-2001001973_Android-5.0.apk" download 
                                 className="flex justify-between px-4 py-2.5 hover:bg-red-400 dark:hover:bg-gray-600 dark:hover:text-white"
                             >
-                                <span>2.3.1</span>
+                                <span>1.64.3</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                                 </svg>
@@ -73,22 +73,12 @@ const MxPro = () => {
                         </li>
                         <li>
                             <a 
-                                href="#" 
+                                href="https://picture.msubcloud.xyz/file/msubyoteshinyelay/android%20player/mx/ph/com.mxtech.videoplayer.pro_v1.61.6-1310001916_Android-5.0.apk" download 
                                 className="flex justify-between px-4 py-2.5 hover:bg-red-400 dark:hover:bg-gray-600 dark:hover:text-white">
-                                <span>2.3.1</span>
+                                <span>1.61.6</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                                 </svg>    
-                            </a>
-                        </li>
-                        <li>
-                            <a 
-                                href="#" 
-                                className="flex justify-between px-4 py-2.5 rounded-br-lg rounded-bl-lg hover:bg-red-400 dark:hover:bg-gray-600 dark:hover:text-white">
-                                <span>2.3.1</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-                                </svg>        
                             </a>
                         </li>
                     </ul>

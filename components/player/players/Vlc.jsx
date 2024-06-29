@@ -48,12 +48,12 @@ const Vlc = () => {
                     <ul className=" text-sm text-white dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                         <li>
                             <a 
-                                href="#" 
+                                href="https://picture.msubcloud.xyz/file/msubyoteshinyelay/android%20player/vlc/ph/org.videolan.vlc_v3.5.4-13050404_Android-4.2.apk" download
                                 className="
                                     flex justify-between px-4 py-2.5 rounded-tr-lg rounded-tl-lg hover:bg-red-400 dark:hover:bg-gray-600 dark:hover:text-white
                                 "
                             >
-                                <span>2.3.1</span>
+                                <span>3.5.4</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                                 </svg>
@@ -61,10 +61,10 @@ const Vlc = () => {
                         </li>
                         <li>
                             <a 
-                                href="#" 
+                                href="https://picture.msubcloud.xyz/file/msubyoteshinyelay/android%20player/vlc/ph/org.videolan.vlc_v3.4.1-13040104_Android-4.2.apk" download
                                 className="flex justify-between px-4 py-2.5 hover:bg-red-400 dark:hover:bg-gray-600 dark:hover:text-white"
                             >
-                                <span>2.3.1</span>
+                                <span>3.4.1</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                                 </svg>
@@ -72,22 +72,12 @@ const Vlc = () => {
                         </li>
                         <li>
                             <a 
-                                href="#" 
+                                href="https://picture.msubcloud.xyz/file/msubyoteshinyelay/android%20player/vlc/ph/org.videolan.vlc_v3.3.0-13030014_Android-4.2.apk" download
                                 className="flex justify-between px-4 py-2.5 hover:bg-red-400 dark:hover:bg-gray-600 dark:hover:text-white">
-                                <span>2.3.1</span>
+                                <span>3.3.0</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                                 </svg>    
-                            </a>
-                        </li>
-                        <li>
-                            <a 
-                                href="#" 
-                                className="flex justify-between px-4 py-2.5 rounded-br-lg rounded-bl-lg hover:bg-red-400 dark:hover:bg-gray-600 dark:hover:text-white">
-                                <span>2.3.1</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-                                </svg>        
                             </a>
                         </li>
                     </ul>
