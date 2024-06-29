@@ -20,7 +20,7 @@ const Download = () => {
     <div id="download" className="py-24 bg-[#FEFEFF] bg-left bg-no-repeat" style={{ backgroundImage: "url('https://msubyoteshin.com/assets/cssAndjs/about-shape-2.svg')" }}>
         <div className='container grid md:grid-cols-2 items-center gap-6 '>
             <div className='p-2'>
-                <div className='w-[230px] md:w-[270px]  mx-auto'>
+                <div className='w-[245px] md:w-[285px]  mx-auto'>
                     <Swiper
                         effect={'cube'}
                         grabCursor={true}
